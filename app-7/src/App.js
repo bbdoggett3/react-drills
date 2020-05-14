@@ -16,7 +16,7 @@ constructor() {
 }
 
 handleAddTask(task) {
-  this.setState({ list: [...this.state.todoList, task] });
+  this.setState({ list: [...this.state.todoList, task] });   //use spread here
 }
 
   render() {
